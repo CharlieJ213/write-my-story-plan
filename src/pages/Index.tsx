@@ -83,7 +83,7 @@ const Index = () => {
               Highlighting interviews and articles across television, film, and entertainment
             </p>
           </div>
-          
+
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-8">
             {featuredWork.map((work, index) => (
               <Card key={index} className="group hover:shadow-lg transition-all duration-300 border-2 hover:border-primary/50">
@@ -100,9 +100,9 @@ const Index = () => {
                     {work.publication}
                   </p>
                   <Button asChild variant="ghost" size="sm" className="w-full">
-                    <a 
-                      href={work.url} 
-                      target="_blank" 
+                    <a
+                      href={work.url}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center justify-center gap-2"
                     >
@@ -116,9 +116,9 @@ const Index = () => {
 
           <div className="text-center">
             <Button asChild variant="outline" size="lg">
-              <a 
-                href="https://muckrack.com/katelyn-mensah-1/articles" 
-                target="_blank" 
+              <a
+                href="https://muckrack.com/katelyn-mensah-1/articles"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2"
               >
@@ -140,7 +140,7 @@ const Index = () => {
               Watch some of my featured video content
             </p>
           </div>
-          
+
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {videos.map((video, index) => (
               <div key={index} className="aspect-video rounded-lg overflow-hidden shadow-lg">
@@ -176,8 +176,8 @@ const Index = () => {
               <div className="space-y-6">
                 <div className="flex items-center justify-center gap-3">
                   <Mail className="h-5 w-5 text-primary" />
-                  <a 
-                    href="mailto:katelynm3nsah@outlook.com" 
+                  <a
+                    href="mailto:katelyn2mensah@gmail.com"
                     className="text-lg hover:text-primary transition-colors"
                   >
                     katelynm3nsah@outlook.com
@@ -186,9 +186,9 @@ const Index = () => {
 
                 <div className="flex justify-center gap-4 pt-6">
                   <Button asChild size="lg" variant="outline">
-                    <a 
-                      href="https://www.instagram.com/katelynmensahjourno" 
-                      target="_blank" 
+                    <a
+                      href="https://www.instagram.com/katelynmensahjourno"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
                     >
@@ -197,22 +197,22 @@ const Index = () => {
                     </a>
                   </Button>
                   <Button asChild size="lg" variant="outline">
-                    <a 
-                      href="https://www.tiktok.com/@katelynmensahjourno" 
-                      target="_blank" 
+                    <a
+                      href="https://www.tiktok.com/@katelynmensahjourno"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
                     >
                       <svg className="h-5 w-5" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z" />
                       </svg>
                       TikTok
                     </a>
                   </Button>
                   <Button asChild size="lg" variant="outline">
-                    <a 
-                      href="https://www.linkedin.com/in/katelyn-mensah" 
-                      target="_blank" 
+                    <a
+                      href="https://www.linkedin.com/in/katelyn-mensah"
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
                     >
