@@ -22,7 +22,67 @@ const Index = () => {
       publication: "Radio Times",
       url: "https://www.radiotimes.com/tv/documentaries/katie-piper-mental-exhaustion-locked-up-in-louisiana-exclusive-newsupdate/",
       type: "Documentary"
-    }
+    },
+    {
+      title: "50 First Dates: The Musical review – Could this be the most charming musical yet?",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/50-first-dates-the-musical-review/",
+      type: "Theatre Review"
+    },
+    {
+      title: "Joel Dommett admits NTAs 30th anniversary hosting pressure and reveals his standout TV show of last three decades",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/joel-dommett-national-television-awards-interview-exclusive-newsupdate/",
+      type: "Awards Interview"
+    },
+    {
+      title: 'Love Is Blind UK’s Sarover and Kal react to "one-sided" split after reunion drama',
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/reality-tv/love-is-blind-uk-sarover-kal-one-sided-split-exclusive-newsupdate/",
+      type: "Netflix Interview"
+    },
+    {
+      title: 'Rob Rinder breaks down "explosive" new show The Inheritance: \'At its core, it\'s a social experiment\'',
+      publication: "Radio Times",
+      url: "Rob Rinder breaks down \"explosive\" new show The Inheritance: 'At its core, it's a social experiment'",
+      type: "TV Interview"
+    },
+    {
+      title: "Take a trip down memory lane with 10 of the most dramatic moments in reality TV history",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/reality-tv/reality-tv-dramatic-moments-comment/",
+      type: "Reality TV"
+    },
+    {
+      title: "\"We're all accountable\": How Destination X is paving the way for more sustainable television",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/reality-tv/destination-x-sustainability-exclusive-newsupdate/",
+      type: "Sustainablity"
+    },
+    {
+      title: "Geordie Shore's Nathan Henry on grief, reality TV and growing up in the North",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/documentaries/geordie-shore-nathan-henry-documentary-interview-exclusive-newsupdate/",
+      type: "TV Interview"
+    },
+    {
+      title: "Rapman says Supacell season 2 gets \"really dark\" after finale cliffhanger",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/sci-fi/supacell-season-2-dark-rapman-exclusive-newsupdate/",
+      type: "Netflix Interview"
+    },
+    {
+      title: "How The Honesty Box separates itself from reality TV overload – Lucinda Light and Vicky Pattison break it down",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/reality-tv/vicky-pattison-lucinda-light-the-honesty-box-exclusive-interview/",
+      type: "Reality TV"
+    },
+    {
+      title: "Paddy McGuinness on Tempting Fortune: \"It took me back to doing Top Gear\"",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/tv/entertainment/reality-tv/paddy-mcguinness-the-big-rt-interview/",
+      type: "TV Interview"
+    },
   ];
 
   const videos = [
