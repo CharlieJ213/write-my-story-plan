@@ -271,7 +271,7 @@ const Index = () => {
                   </Button>
                   <Button asChild size="lg" variant="outline">
                     <a
-                      href="https://www.linkedin.com/in/katelyn-mensah"
+                      href="https://www.linkedin.com/in/katelyn-mensah-683504196/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
