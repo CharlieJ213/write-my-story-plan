@@ -6,19 +6,19 @@ import headshotImage from "@/assets/katelyn-headshot.jpg";
 const Index = () => {
   const featuredWork = [
     {
-      title: "Anna Kendrick Reveals Haunting Details About Woman of the Hour",
+      title: "Anna Kendrick reveals haunting details about Woman of the Hour",
       publication: "Radio Times",
       url: "https://www.radiotimes.com/movies/anna-kendrick-haunting-details-woman-of-the-hour-exclusive-newsupdate/",
       type: "Film Interview"
     },
     {
-      title: "Jimmy Akingbola Opens Up About 'Sorry I Didn't Know'",
+      title: "Jimmy Akingbola opens up about 'Sorry I Didn't Know'",
       publication: "Radio Times",
       url: "https://www.radiotimes.com/tv/entertainment/jimmy-akingbola-sorry-i-didnt-know-big-rt-interview/",
       type: "TV Interview"
     },
     {
-      title: "Katie Piper on Mental Exhaustion in 'Locked Up in Louisiana'",
+      title: "Katie Piper on mental exhaustion in 'Locked Up in Louisiana'",
       publication: "Radio Times",
       url: "https://www.radiotimes.com/tv/documentaries/katie-piper-mental-exhaustion-locked-up-in-louisiana-exclusive-newsupdate/",
       type: "Documentary"
@@ -88,7 +88,13 @@ const Index = () => {
   const videos = [
     { id: "aLgCmTOzmnI", title: "Featured Interview 1" },
     { id: "wrgk0m5wnsQ", title: "Featured Interview 2" },
-    { id: "inOCGm4zM9w", title: "Featured Interview 3" }
+    { id: "inOCGm4zM9w", title: "Featured Interview 3" },
+    { id: "Z0ot_22h904", title: "Amanda Holden and Paul C Brunson give us their HONEST relationship advice" },
+    { id: "OJbNpfg9St8", title: "“Oh he’s going to hate me!” Made in Chelsea's Tristan and Jules REVEAL cast secrets" },
+    { id: "3aC3IjwJigA", title: "Jack Rooke & Big Boys cast GUESS iconic quotes from TV & Film" },
+    { id: "GXmOeQchnLU", title: "The Traitors REUNITE and REVEAL all about life after the show" },
+    { id: "FUwt4C73FHg", title: "\"I wanted to apologise\" Love Is Blind UK cast open up about the show and marriage a year on" },
+    { id: "05rF3f_YFYc", title: "Josh O'Connor REVEALS why fans should stick with new film" }
   ];
 
   return (
@@ -105,15 +111,15 @@ const Index = () => {
                 Entertainment Journalist
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-                Multiskilled and creative entertainment journalist offering six years of experience in digital media across television, film and celebrity news. Skilled at leading content strategy, commissioning features and collaborating with talent to deliver high quality content.
+                Multi-skilled and creative entertainment journalist offering six years of experience in digital media across television, film and celebrity news. Skilled at leading content strategy and collaborating with talent to deliver high quality content.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button asChild size="lg">
-                  <a href="#contact">Get in Touch</a>
+                  <a href="#contact">Get in touch</a>
                 </Button>
                 <Button asChild variant="outline" size="lg">
                   <a href="#work" className="flex items-center gap-2">
-                    View Work
+                    View work
                   </a>
                 </Button>
               </div>
@@ -140,7 +146,7 @@ const Index = () => {
               Featured Work
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Highlighting interviews and articles across television, film, and entertainment
+              Highlighting interviews and exclusives across television and film.
             </p>
           </div>
 
@@ -202,7 +208,7 @@ const Index = () => {
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-            {videos.map((video, index) => (
+            {videos.reverse().map((video, index) => (
               <div key={index} className="aspect-video rounded-lg overflow-hidden shadow-lg">
                 <iframe
                   width="100%"
@@ -227,7 +233,7 @@ const Index = () => {
               Let's Connect
             </h2>
             <p className="text-lg text-muted-foreground">
-              Get in touch for collaborations, interviews, or media inquiries
+              Get in touch for collaborations, interviews or media inquiries
             </p>
           </div>
 
@@ -237,10 +243,10 @@ const Index = () => {
                 <div className="flex items-center justify-center gap-3">
                   <Mail className="h-5 w-5 text-primary" />
                   <a
-                    href="mailto:katelyn2mensah@gmail.com"
+                    href="mailto:info@katelynmensah.com"
                     className="text-lg hover:text-primary transition-colors"
                   >
-                    katelynm3nsah@outlook.com
+                    info@katelynmensah.com
                   </a>
                 </div>
 
@@ -258,7 +264,7 @@ const Index = () => {
                   </Button>
                   <Button asChild size="lg" variant="outline">
                     <a
-                      href="https://www.tiktok.com/@katelynmensahjourno"
+                      href="https://www.tiktok.com/@katelynmensah"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
