@@ -253,7 +253,7 @@ const Index = () => {
                 <div className="flex justify-center gap-4 pt-6">
                   <Button asChild size="lg" variant="outline">
                     <a
-                      href="https://www.instagram.com/katelynmensahjourno"
+                      href="https://www.instagram.com/katelynnmensah"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2"
