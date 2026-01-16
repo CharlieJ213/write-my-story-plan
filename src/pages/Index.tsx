@@ -30,6 +30,12 @@ const Index = () => {
       type: "Theatre Review"
     },
     {
+      title: "Fawlty Towers review: Adam Jackson-Smith shines in this comedy classic",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/fawlty-towers-the-play-review/",
+      type: "Theatre Review"
+    },
+    {
       title: "Anna Kendrick reveals haunting details about Woman of the Hour",
       publication: "Radio Times",
       url: "https://www.radiotimes.com/movies/anna-kendrick-haunting-details-woman-of-the-hour-exclusive-newsupdate/",
@@ -163,9 +169,7 @@ const Index = () => {
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
               Featured Work
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Highlighting interviews and exclusives across television and film.
-            </p>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">Highlighting interviews, exclusives and reviews across theatre, television and film.</p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-8">
