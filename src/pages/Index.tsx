@@ -6,6 +6,30 @@ import headshotImage from "@/assets/katelyn-headshot.jpg";
 const Index = () => {
   const featuredWork = [
     {
+      title: "50 First Dates: The Musical review – Could this be the most charming musical yet?",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/50-first-dates-the-musical-review/",
+      type: "Theatre Review"
+    },
+    {
+      title: "The Lightning Thief: The Percy Jackson musical review – It'd make the Gods proud",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/the-lightning-thief-musical-review/",
+      type: "Theatre Review"
+    },
+    {
+      title: "Shrek the Musical review: The return to enchanted Duloc falls flat",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/shrek-the-musical-review/",
+      type: "Theatre Review"
+    },
+    {
+      title: "Inside No. 9 Stage/Fright review: It'll be your spookiest trip to the theatre yet",
+      publication: "Radio Times",
+      url: "https://www.radiotimes.com/going-out/going-out-reviews/inside-no-9-stage-fright-review/",
+      type: "Theatre Review"
+    },
+    {
       title: "Anna Kendrick reveals haunting details about Woman of the Hour",
       publication: "Radio Times",
       url: "https://www.radiotimes.com/movies/anna-kendrick-haunting-details-woman-of-the-hour-exclusive-newsupdate/",
@@ -22,12 +46,6 @@ const Index = () => {
       publication: "Radio Times",
       url: "https://www.radiotimes.com/tv/documentaries/katie-piper-mental-exhaustion-locked-up-in-louisiana-exclusive-newsupdate/",
       type: "Documentary"
-    },
-    {
-      title: "50 First Dates: The Musical review – Could this be the most charming musical yet?",
-      publication: "Radio Times",
-      url: "https://www.radiotimes.com/going-out/going-out-reviews/50-first-dates-the-musical-review/",
-      type: "Theatre Review"
     },
     {
       title: "Joel Dommett admits NTAs 30th anniversary hosting pressure and reveals his standout TV show of last three decades",
